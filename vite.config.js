@@ -7,6 +7,7 @@ export default ({ mode }) => {
             outDir: 'build',
         },
         plugins: [react()],
+        base: '/flow-calculator/',
         define: {
             "process.env.NODE_ENV": `"${mode}"`,
         }
