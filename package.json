@@ -10,6 +10,8 @@
     "genversion": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "@react-three/fiber": "*",
+    "three-stdlib": "*",
     "react-gcode-viewer": "^2.0.4",
     "react-hook-form": "^7.31.1",
     "react-hot-toast": "^2.2.0",
