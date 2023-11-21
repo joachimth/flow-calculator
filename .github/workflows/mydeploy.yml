@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - run: yarn install
-      - run: yarn upgrade-interactive --latest
+      - run: yarn upgrade --latest
         
       - run: npm install
       - run: npm ci
